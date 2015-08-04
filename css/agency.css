@@ -12,9 +12,13 @@ body {
 .text-muted {
     color: #777;
 }
+.text-muted-2 {
+    color: #FFF;
+}
+
 
 .text-primary {
-    color: #fed136;
+    color: #6E9AEA;
 }
 
 p {
@@ -35,7 +39,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #6E9AEA;
 }
 
 a:hover,
@@ -69,12 +73,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #6E9AEA; /*#6E9AEA;*/
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #6E9AEA;
 }
 
 .btn-primary:hover,
@@ -84,7 +88,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #fec503;
+    background-color: #6E9AEA;
 }
 
 .btn-primary:active,
@@ -108,25 +112,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #6E9AEA;
+    background-color: #6E9AEA;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #6E9AEA;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #6E9AEA;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #6E9AEA;
 }
 
 .btn-xl:hover,
@@ -160,12 +164,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #6E9AEA;
+    background-color: #6E9AEA;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #6E9AEA;
     background-color: #fff;
 }
 
@@ -176,7 +180,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #6E9AEA;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -191,8 +195,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #6E9AEA;
+    background-color: #6E9AEA;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -201,7 +205,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #6E9AEA;
 }
 
 .navbar-default .nav li a {
@@ -215,13 +219,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #6E9AEA;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #6E9AEA;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -298,8 +302,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 150px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .intro-lead-in {
@@ -493,7 +497,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #6E9AEA;
 }
 
 .timeline>li .timeline-image h4 {
@@ -680,7 +684,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #6E9AEA;
     box-shadow: none;
 }
 
@@ -758,7 +762,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #6E9AEA;
 }
 
 .btn:focus,
@@ -846,12 +850,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #6E9AEA;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #6E9AEA;
 }
 
 img::selection {
@@ -863,5 +867,9 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #6E9AEA;
+}
+
+.inline {
+    display:inline-block;
 }
