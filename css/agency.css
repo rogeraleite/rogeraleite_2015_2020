@@ -900,3 +900,15 @@ body {
 .skills-div{
     padding-left: 25%;
 }
+
+.marker-tu:hover{
+    /*
+    background: #999;
+    border: 2px solid #8AC007;
+    border-radius: 25px;
+    */
+}
+
+.marker-active{
+    background: #999;
+}
