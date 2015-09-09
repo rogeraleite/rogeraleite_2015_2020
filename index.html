@@ -478,7 +478,7 @@
                     <div class="col-md-10 col-md-offset-1">
                         <p class="skills-item marker-ufrgs marker-tu">Sublime</p>
                         <p class="skills-item marker-pucrs marker-adp marker-ufrgs">Eclipse</p>
-                        <p class="skills-item marker-valens marker-pucrs">Visual Studio</p>
+                        <p class="skills-item marker-s2b marker-valens marker-pucrs">Visual Studio</p>
                     </div>
                  <h3 class="text-muted skills-header col-md-6 col-md-offset-3">Methodologies:</h3>
                     <div class="col-md-10 col-md-offset-1">
@@ -713,7 +713,7 @@
 
 <script>
 
-    var markers = [".marker-pucrs","marker-s2b",".marker-adp", ".marker-ufrgs",".marker-valens",".marker-tu"];
+    var markers = [".marker-pucrs",".marker-s2b",".marker-adp", ".marker-ufrgs",".marker-valens",".marker-tu"];
     var arrayLength = markers.length;
 
     var applyBehaviorToSkill = function(){
@@ -725,6 +725,8 @@
                             var cla = c;
                             var el = $(this);
                             var isItem = el.hasClass("skills-item");
+
+                            console.log(c);
 
                             el.mouseover(function(){
                                 el.addClass("marker-active");
