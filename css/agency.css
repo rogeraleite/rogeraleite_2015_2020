@@ -912,3 +912,12 @@ body {
 .marker-active{
     background: #DDD;
 }
+
+.languages-section{
+    background-image: url("../img/profile/landscape-bg.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    height: 100%;
+    width: 100%;
+}
