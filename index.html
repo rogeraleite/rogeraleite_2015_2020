@@ -24,8 +24,8 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -317,12 +317,42 @@
 
 <!-- .col-xs-   .col-sm-    .col-md-    .col-lg- -->
 
-    <section id="about" class="col-sm-12 col-md-12 col-lg-12 languages-section">
+    <section id="about" class="well">
         <h2 class="section-heading">Languages</h2>
-                        <div class="col-sm-offset-2 col-md-offset-2 col-lg-offset-2 col-sm-2 col-md-2 col-lg-2"><img class="img-responsive" src="img/profile/bigbaloon_br.png" alt=""></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2"><img class="img-responsive" src="img/profile/bigbaloon_us2.png" alt=""></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2"><img class="img-responsive" src="img/profile/bigbaloon_spain.png" alt=""></div>
-                        <div class="col-sm-2 col-md-2 col-lg-2"><img class="img-responsive" src="img/profile/baloon_ger.png" alt=""></div>
+        <div class="container">
+             <div class="row">
+                 <div class="language-item col-xs-3 center-block">
+                    <div>
+                        <svg id="fillgauge1" width="70%" height="200" onclick="gauge1.update(NewValue());"></svg>
+                    </div>
+                  </div>
+                 <div class="language-item col-xs-3 center-block">
+                    <div>
+                        <svg id="fillgauge2" width="70%" height="200" onclick="gauge2.update(NewValue());"></svg>
+                    </div>
+                  </div>
+                 <div class="language-item col-xs-3 center-block">
+                    <div>
+                        <svg id="fillgauge3" width="70%" height="200" onclick="gauge3.update(NewValue());"></svg>
+                    </div>
+                  </div>
+                  <div class="language-item col-xs-3 center-block">
+                    <div>
+                        <svg id="fillgauge4" width="70%" height="200" onclick="gauge4.update(NewValue());"></svg>
+                    </div>
+                  </div>
+                  <div class="language-item col-xs-3 center-block">
+                    <div>
+                        <svg id="fillgauge5" width="70%" height="200" onclick="gauge5.update(NewValue());"></svg>
+                    </div>
+                  </div>
+                  <div class="language-item col-xs-3 center-block">
+                    <div>
+                        <svg id="fillgauge6" width="70%" height="200" onclick="gauge6.update(NewValue());"></svg>
+                    </div>
+                  </div>
+              </div>
+        </div>
     </section>
 
     <section id="about" class="col-sm-offset-3 col-md-offset-3 col-lg-offset-3
@@ -484,6 +514,7 @@
                         <p class="skills-item marker-pucrs  marker-ufrgs">matlab</p>
                         <p class="skills-item marker-tu">R</p>
                         <p class="skills-item marker-tu">web animations</p>
+                        <p class="skills-item marker-tu">PS</p>
                     </div>
                 <h3 class="text-muted skills-header col-md-6 col-md-offset-3">Preferencial IDEs:</h3>
                     <div class="col-md-10 col-md-offset-1">
@@ -732,54 +763,11 @@
 </body>
 
 
-<script>
 
-    var markers = [".marker-pucrs",".marker-s2b",".marker-adp", ".marker-ufrgs",".marker-valens",".marker-tu"];
-    var arrayLength = markers.length;
 
-    var applyBehaviorToSkill = function(){
+    <script type="text/javascript" src="script/generalInteraction.js"></script>
+    <script type="text/javascript" src="script/liquidFillGauge.js"></script>
+    <script type="text/javascript" src="script/liquidLanguages.js"></script>
 
-                for (var i = 0; i < arrayLength; i++) {
-                        var c = markers[i];
-                        $(c).each(function(){
-                            var cla = c;
-                            var el = $(this);
-                            var isItem = el.hasClass("skills-item");
-
-                            console.log(c);
-
-                            el.mouseover(function(){
-                                el.addClass("marker-active");
-                                $(cla).each(function(){
-                                    var isSelectedItem = $(this).hasClass("skills-item");
-
-                                        if(isItem && !isSelectedItem){
-                                            $(this).addClass("marker-active");
-                                        }//end if
-                                        else if(!isItem){
-                                            $(this).addClass("marker-active");
-                                        }//end else
-                                    })
-                             });
-                            el.mouseleave(function(){
-                                el.removeClass("marker-active");
-                                 $(cla).each(function(){
-                                        var isSelectedItem = $(this).hasClass("skills-item");
-
-                                        if(isItem && !isSelectedItem){
-                                            $(this).removeClass("marker-active");
-                                        }//end if
-                                        else if(!isItem){
-                                            $(this).removeClass("marker-active");
-                                        }//end else
-                                     })
-                           });
-                        })
-                }//end for
-    };
-
-    window.onload(applyBehaviorToSkill());
-
-</script>
 
 </html>
