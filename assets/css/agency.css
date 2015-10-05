@@ -270,7 +270,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/profile/bg.jpg);
+    background-image: url(../img/profile/bg_b.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -494,7 +494,7 @@ section h3.section-subheading {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: solid 7px #000;
     border-radius: 100%;
     text-align: center;
     color: #fff;
@@ -867,6 +867,10 @@ img::-moz-selection {
     background: 0 0;
 }
 
+img.img-circle{
+    border: solid 5px black;
+}
+
 body {
     webkit-tap-highlight-color: #6E9AEA;
 }
@@ -950,4 +954,16 @@ body {
   top: 50%;
     left: 50%;
   width: 300px;
+}
+
+#itermediate1{
+    background-image: url(../img/profile/bg_b.jpg);
+}
+
+#itermediate2{
+    background-image: url(../img/profile/bg_b.jpg);
+}
+
+footer{
+ background-image: url(../img/profile/bg_b.jpg);
 }
