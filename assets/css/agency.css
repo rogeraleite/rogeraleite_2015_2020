@@ -270,7 +270,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/profile/bg_countryside.jpg);
+    background-image: url(../img/profile/bg5.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -968,13 +968,13 @@ body {
 }
 
 #itermediate1{
-    background-image: url(../img/profile/bg_lacador.jpg);
+    background-image: url(../img/profile/bg5.jpg);
     background-size: cover;
     height: 500px;
 }
 
 #itermediate2{
-    background-image: url(../img/profile/bg_prater.jpg);
+    background-image: url(../img/profile/bg5.jpg);
     background-size: cover;
     height: 500px;
 }
