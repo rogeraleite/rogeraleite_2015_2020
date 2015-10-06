@@ -494,7 +494,7 @@ section h3.section-subheading {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: solid 7px #000;
+    border: solid 7px #
     border-radius: 100%;
     text-align: center;
     color: #fff;
@@ -868,7 +868,7 @@ img::-moz-selection {
 }
 
 img.img-circle{
-    border: solid 5px black;
+    border: solid 1px #4090db;
 }
 
 body {
@@ -886,8 +886,9 @@ body {
     vertical-align: baseline;
     display: inline-block;
     font-size:  20px;
-    padding:  0px 15px;
+    padding:  1px 16px;
     color: #4090db;
+
 }
 
 .skills-header{
@@ -917,6 +918,16 @@ body {
 .marker-active{
     background: #DDD;
 }
+
+.marker-active img.img-circle{
+    border: solid 2px #4090db;
+}
+
+.marker-active.skills-item{
+    border: solid 2px #4090db;
+    padding: 0px 15px;
+}
+
 
 .languages-section{
     background-image: url("../img/profile/landscape-bg.png");
