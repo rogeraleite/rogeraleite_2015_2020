@@ -303,8 +303,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 150px;
-        padding-bottom: 50px;
+        padding-top: 100px;
+        padding-bottom: 30px;
     }
 
     header .intro-text .intro-lead-in {
@@ -970,13 +970,13 @@ body {
 #itermediate1{
     background-image: url(../img/profile/bg5.jpg);
     background-size: cover;
-    height: 500px;
+    height: 350px;
 }
 
 #itermediate2{
     background-image: url(../img/profile/bg5.jpg);
     background-size: cover;
-    height: 500px;
+    height: 350px;
 }
 
 footer{

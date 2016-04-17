@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/profile/bg.jpg);
+    background-image: url(../img/profile/bg5.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -657,7 +657,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/poli.png);
     background-position: center;
     background-repeat: no-repeat;
 }
