@@ -336,8 +336,8 @@ section h2.section-heading {
 }
 
 center.section-heading {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 20%;
     margin-right: 15%;
     margin-left: 15%;
     font-size: 30px;
@@ -971,7 +971,7 @@ body {
   display: inline-block;
   vertical-align: middle;
   top: 50%;
-    left: 50%;
+  left: 50%;
   width: 300px;
 }
 
@@ -985,6 +985,12 @@ body {
     background-image: url(../img/profile/bg5.jpg);
     background-size: cover;
     height: 225px;
+}
+
+#itermediate3{
+    background-image: url(../img/profile/bg5.jpg);
+    background-size: cover;
+    height: 30px;
 }
 
 footer{
