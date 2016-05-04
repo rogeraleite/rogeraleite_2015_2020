@@ -997,7 +997,7 @@ body {
 #itermediate3{
     background-image: url(../img/profile/bg5.jpg);
     background-size: cover;
-    height: 30px;
+    height: auto;
 }
 
 footer{
