@@ -23,9 +23,9 @@ var config2 = liquidFillGaugeDefaultSettings();
     config2.waveTextColor = "#FFAAAA";
     config2.waveColor = "#FFDDDD";
     config2.circleThickness = 0.05;
-    config2.textVertPosition = 0.2;
+    config2.textVertPosition = 0.3;
     config2.waveAnimateTime = 1000;
     config2.waveHeight = 0.3;
 
-var gauge4 = loadLiquidFillGauge("fillgauge4", 10, config2);
+var gauge4 = loadLiquidFillGauge("fillgauge4", 25, config2);
 
