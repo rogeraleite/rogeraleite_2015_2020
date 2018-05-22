@@ -1,8 +1,8 @@
 var config1 = liquidFillGaugeDefaultSettings();
-    config1.circleColor = "#008080";
-    config1.textColor = "#008080";
-    config1.waveTextColor = "#008080";
-    config1.waveColor = "#66CDAA";
+    config1.circleColor = "#4090db";
+    config1.textColor = "#4090db";
+    config1.waveTextColor = "#FFF";
+    config1.waveColor = "#4090db";
     config1.circleThickness = 0.05;
     config1.textVertPosition = 0.9;
     config1.waveAnimateTime = 1000;
