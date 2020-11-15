@@ -27,5 +27,5 @@ var config2 = liquidFillGaugeDefaultSettings();
     config2.waveAnimateTime = 1000;
     config2.waveHeight = 0.3;
 
-var gauge4 = loadLiquidFillGauge("fillgauge4", 40, config2);
+var gauge4 = loadLiquidFillGauge("fillgauge4", 45, config2);
 
